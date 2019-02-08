@@ -7,17 +7,17 @@
 
 //Insert your line algorithm here
 void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
-  /*  if (y1 > y0 && x1 > x0) {
-      int temp = y1;
-      y1 = y0;
-      y0 = temp;
-      } */
+  /*if (((y1 - y0)/(x1 - x0)) < 0) {
+    int temp = y1;
+    y1 = y0;
+    y0 = temp;
+    } Octants 3 and 4 */
 
   /*if (x1 == x0) {
-    for (int y = y0; y <= y1; y++) {
+    for (int y = y0; y <= ; y++) {
       plot (s, c, x0, y);
     }
-    } doesn't work, when m = undefined */
+  } //doesn't work, when m = undefined */
 
   else {
     
