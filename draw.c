@@ -37,10 +37,10 @@ void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
 	plot(s, c, x, y);
 	if (d < 0) {
 	  x++;
-	  d += 2*A;
+	  d -= 2*A;
 	}
 	y--;
-	d -= 2*B;
+	d += 2*B;
       } 
     }
 
@@ -51,10 +51,10 @@ void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
 	plot(s, c, x, y);
 	if (d > 0) {
 	  y--;
-	  d -= 2*B;
+	  d += 2*B;
 	}
 	x++;
-	d += 2*A;
+	d -= 2*A;
       }
     }
     
